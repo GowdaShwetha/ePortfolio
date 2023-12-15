@@ -22,7 +22,6 @@ import Temp01 from './Components/Temps/Temp01';
 import Temp02 from './Components/Temps/Temp02';
 import { Temp03 } from './Components/Temps/Temp03';
 
-
 function App() {
   return (
     
