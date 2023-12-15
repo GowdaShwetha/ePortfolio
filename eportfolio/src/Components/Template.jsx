@@ -33,7 +33,7 @@ const Template = () => {
       <h1>Templates</h1>
       <Link to='/single'>
         <Container>
-        <Row id="temps">
+        <Row id="temps" style={{display:'flex'}}>
         <Col><Link to="/temp01"><img src={Temp1}/></Link></Col>
         <Col><Link to="/temp02"><img src={Temp2}/></Link></Col>
         <Col><Link to="/temp03"><img src={Temp3}/></Link></Col><br/>

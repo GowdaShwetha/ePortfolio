@@ -131,7 +131,7 @@ margin-bottom: 6%;
     margin-left:70px;
 }
     
-.me3{
+.about-me3 .me3{
   margin-left: 5%;
   height: 50%;
   width: 50%;
@@ -148,7 +148,7 @@ margin-bottom: 6%;
   -webkit-text-fill-color: transparent;
   }
   
-.me3 p input::placeholder{
+  .about-me3 .me3 p input::placeholder{
     display: inline-flexbox;
     /* padding: 10% 0 10% 20%; */
     color: black;
@@ -156,9 +156,10 @@ margin-bottom: 6%;
     line-height: 2rem;
     font-size: 1.5rem;
 }
-.me3 .text3 textarea::placeholder
+.about-me3 .me3 .text3 textarea::placeholder,.about-me3 .me3 .text3 textarea
 {
   color:black;
+  font-size: 1.3rem;
 }
 
 .Service3
@@ -166,21 +167,27 @@ margin-bottom: 6%;
     margin-bottom: 8%;
 }
 
-.con .h2 input::placeholder
+.Service3 .con .h2 input::placeholder, .Service3 .con .h2 input
 {
   margin-top: 5%;
   text-align: center;
   color:black;
+  font-size: 1.5rem;
+  margin-left: 3%;
 }
-.con .p{
+.Service3 .con .p{
   margin-left: 13%;
+  margin-top: 5%;
 }
-.con .p input::placeholder
+.Service3 .con .p input::placeholder, .Service3 .con .p input
 {
   text-align: center;
   color:black;
+  font-size: 1.5rem;
+ 
 }
-.con{
+.Service3 .con{
+  width:350px;
   height: 200px;
   border:1px solid rgba(0,0,0.1);
   border-radius: 6%;
@@ -206,17 +213,20 @@ margin-bottom: 6%;
 .educ3{
     margin-top: 5%;
     align-items: center;
-    margin-left: 25%;
+    margin-left: 40%;
     /* padding-bottom: 3%; */
   }
   
-  .educ3 .h2 input::placeholder
+  .educ3 .h2 input::placeholder,  .educ3 .h2 input
   {
     color:black;
+    font-size: 1.5rem;
   }
-  .educ3 .p input::placeholder
+  .educ3 .p input::placeholder,  .educ3 .h2 input
   {
     color:black;
+   
+
   }
   .educ3 .vertical-line
   {
@@ -260,7 +270,7 @@ color:white;
   width:15%;
   margin-left: 40%;
   height: 15%;
-  background:linear-gradient(90deg,var(--purple),var(--pink));
+  background:linear-gradient(40deg,white,black);
   color:white;
   border: 0;
   border-radius: 10%;

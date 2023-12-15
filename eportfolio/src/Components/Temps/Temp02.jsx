@@ -77,7 +77,7 @@ const Temp02 = () => {
                   Facere ducimus sint quam quisquam laborum neque incidunt, perspiciatis soluta delectus.
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Exercitationem doloribus voluptate animi odit culpa velit eveniet."
-                  style={{ width: '600px', height: '270px', color:'#B14096'}}/>
+                  style={{ width: '600px', height: '270px', color:'#B14096',fontSize:'1.5rem'}}/>
                   </p>
                 </div>
                  
@@ -92,32 +92,32 @@ const Temp02 = () => {
                 <div class="Service2" id="Service2">
           <div>
           <h1 class="about-h2"><InputBox placeholder="Achievement" style={{color:'#F83292'}}/></h1>
-            <hr style={{width:'300px',borderTop:'6px solid #FD7F20',marginLeft:'40%'}}/><br/>
+            {/* <hr style={{width:'300px',borderTop:'6px solid #F83292',marginLeft:'40%',border:'0'}}/><br/> */}
             <p><teaxtarea placeholder="Exercitationem doloribus voluptate animi odit culpa velit eveniet. Sit, eveniet adipisci." 
             style={{ width: '200px', height: '50px', color:'black'}}/></p>
           </div>
           <div>
-            <Container>
-              <Row>
-                <Col>
+            <Container style={{marginLeft:'10%',marginTop:'4%'}}>
+              <Row style={{display:'flex'}}>
+                <Col style={{paddingRight:'6%'}}>
                 <div  class='con'>
-              <p class="h2"><InputBox placeholder="Achievement1" style={{color:'#F83292'}}/></p>
+              <p class="h2"><InputBox placeholder="Achievement1" style={{color:'#F83292',marginTop:'5%', marginLeft:'10%',fontSize:'1.5rem'}}/></p>
               <p class="p"><textarea placeholder="Exercitationem doloribus voluptate animi odit culpa velit eveniet."
-              style={{ width: '300px', height: '100px', color:'#B14096'}}/></p>
+              style={{ width: '300px', height: '100px', color:'#B14096',border:'0' ,marginTop:'5%',fontSize:'1.2rem'}}/></p>
               </div>
                 </Col>
-                <Col>
+                <Col style={{paddingRight:'6%'}}>
                 <div  class='con'>
-              <p class="h2"><InputBox placeholder="Achievement2"/></p>
+              <p class="h2"><InputBox placeholder="Achievement2" style={{color:'#F83292',marginTop:'5%', marginLeft:'10%',fontSize:'1.5rem'}}/></p>
               <p class="p"><textarea placeholder="Exercitationem doloribus voluptate animi odit culpa velit eveniet."
-              style={{ width: '300px', height: '100px', color:'#B14096'}}/></p>
+              style={{ width: '300px', height: '100px', color:'#B14096',border:'0',marginTop:'5%',fontSize:'1.2rem'}}/></p>
               </div>
                 </Col>
-                <Col>
+                <Col style={{paddingRight:'6%'}}>
                 <div  class='con'>
-              <p class="h2"><InputBox placeholder="Achievement3"/></p>
+              <p class="h2"><InputBox placeholder="Achievement3" style={{color:'#F83292',marginTop:'5%', marginLeft:'10%',fontSize:'1.5rem'}}/></p>
               <p class="p"><textarea placeholder="Exercitationem doloribus voluptate animi odit culpa velit eveniet."
-              style={{ width: '300px', height: '100px', color:'#B14096'}}/></p>
+              style={{ width: '300px', height: '100px', color:'#B14096',border:'0',marginTop:'5%',fontSize:'1.2rem'}}/></p>
               </div>
                 </Col>
               </Row>
@@ -127,25 +127,25 @@ const Temp02 = () => {
 
         <div class="Skills2" id="Skills2">
           <h1 class="about-h2"><InputBox placeholder="Skills"/></h1>
-            <Container style={{marginLeft:'8%', padding:'5%'}}>
-                <Row>
-                <Col><InputBox  placeholder="Java" style={{color:'#B14096'}}/></Col>
-                <Col><InputBox  placeholder="React"  style={{color:'#B14096'}}/></Col>
-                <Col><InputBox  placeholder="SQL" style={{color:'#B14096'}}/></Col>
-                <Col><InputBox  placeholder="PHP" style={{color:'#B14096'}}/></Col>
+            <Container style={{marginLeft:'17%', padding:'3%'}}>
+                <Row style={{display:'flex'}}>
+                <Col><InputBox  placeholder="Java" style={{color:'#B14096', marginRight:'20px'}}/></Col>
+                <Col><InputBox  placeholder="React"  style={{color:'#B14096', marginRight:'50px'}}/></Col>
+                <Col><InputBox  placeholder="SQL" style={{color:'#B14096', marginRight:'50px'}}/></Col>
+                <Col><InputBox  placeholder="PHP" style={{color:'#B14096', marginRight:'50px'}}/></Col>
                 </Row>
-                <Row>
-                <Col>
+                <Row style={{display:'flex', marginRight:'50px'}}>
+                <Col style={{marginRight:'50px'}}>
                   <p><input type="range" min="1" max="100" step ="1" value={percentage} class="progressInput"onChange={(ev)=> setPercentage(ev.target.value)}
                   
                   /></p> </Col>
-                <Col>
+                <Col style={{marginRight:'50px'}}>
                   <p><input type="range" min="1" max="100" step ="1" value={percentage} class="progressInput"onChange={(ev)=> setPercentage2(ev.target.value)}
                    /></p> </Col>
-                <Col>
+                <Col style={{marginRight:'50px'}}>
                   <p><input type="range" min="1" max="100" step ="1" value={percentage} class="progressInput"onChange={(ev)=> setPercentage3(ev.target.value)}
                     /></p> </Col>
-                <Col>
+                <Col style={{marginRight:'50px'}}>
                   <p><input type="range" min="1" max="100" step ="1" value={percentage} class="progressInput"onChange={(ev)=> setPercentage4(ev.target.value)}
                   /></p> </Col>
                 </Row>
@@ -156,9 +156,9 @@ const Temp02 = () => {
           <h1 class="about-h2"><InputBox placeholder="Education"/></h1>
           <div class="educ2">
           <Container>
-            <Row>
+            <Row style={{display:'flex'}}>
               <Col>
-              <div>
+              <div class="edu">
               <p class="h2"><InputBox placeholder="MCA"/></p>
               <p class="p"><InputBox placeholder="Jain Uniersity"/></p>
               <p class="p"><InputBox placeholder="85%"/></p><br/><br/>
@@ -177,9 +177,9 @@ const Temp02 = () => {
             </Row>
           </Container>
           <Container>
-            <Row>
+            <Row style={{display:'flex'}}>
               <Col>
-              <div>
+              <div class="edu">
               <h2 class="h2"><InputBox placeholder="PUC"/></h2>
               <p class="p"><InputBox placeholder="Jain Uniersity"/></p>
               <p class="p"><InputBox placeholder="85%"/></p><br/><br/>

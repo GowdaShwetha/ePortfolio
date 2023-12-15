@@ -94,7 +94,7 @@
 }
 #About2 {
     margin:5% 3% 3% 3%;
-margin-bottom: 6%;
+    margin-bottom: 6%;
 }
 .about-h2
 {
@@ -149,27 +149,39 @@ margin-bottom: 6%;
 {
   color:var(--purple);
 }
+.me2 .text2 textarea
+{
+  border:0;
+}
 
 .Service2
 {
     margin-bottom: 8%;
 }
-
-.con .h2 input::placeholder
+.Service2 .con .h2 input::placeholder
 {
   margin-top: 5%;
   text-align: center;
   color:var(--purple);
+  border:0;
+  font-size: 1.5rem;
 }
-.con .p{
+.Service2 .con .h2
+{
+  border: 0;
+}
+.Service2 .con .p{
   margin-left: 13%;
 }
-.con .p input::placeholder
+.Service2 .achie .con .p input::placeholder
 {
   text-align: center;
   color:var(--purple);
+  border:0;
+  font-size: 1rem;
 }
-.con{
+.Service2 .con{
+  width:350px;
   height: 200px;
   border:1px solid rgba(0,0,0.1);
   border-radius: 6%;
@@ -195,17 +207,22 @@ margin-bottom: 6%;
 .educ2{
     margin-top: 5%;
     align-items: center;
-    margin-left: 25%;
+    margin-left: 38%;
     /* padding-bottom: 3%; */
   }
-  
-  .educ2 .h2 input::placeholder
-  {
-    color:var(--purple);
+  .edu{
+    padding-right: 100px;
   }
-  .educ2 .p input::placeholder
+  
+  .educ2 .h2 input::placeholder, .educ2 input
   {
     color:var(--purple);
+    font-size: 1.5rem;
+  }
+  .educ2 .p input::placeholder, .educ2 input
+  {
+    color:var(--purple);
+    font-size: 1rem;
   }
   .educ2 .vertical-line
   {

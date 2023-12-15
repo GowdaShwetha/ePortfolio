@@ -81,7 +81,7 @@ export const Temp03 = () => {
                   Facere ducimus sint quam quisquam laborum neque incidunt, perspiciatis soluta delectus.
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Exercitationem doloribus voluptate animi odit culpa velit eveniet."
-                  style={{ width: '600px', height: '270px', color:'black'}}/>
+                  style={{ width: '600px', height: '270px', color:'black',border:'0'}}/>
                   </p>
                 </div>
                  
@@ -96,32 +96,32 @@ export const Temp03 = () => {
                 <div class="Service3" id="Service3">
           <div>
           <h1 class="about-h3"><InputBox placeholder="Achievement" style={{color:'#F83292'}}/></h1>
-            <hr style={{width:'300px',borderTop:'6px solid #000000',marginLeft:'40%'}}/><br/>
+            {/* <hr style={{width:'300px',borderTop:'6px solid #000000',marginLeft:'40%'}}/><br/> */}
             <p><teaxtarea placeholder="Exercitationem doloribus voluptate animi odit culpa velit eveniet. Sit, eveniet adipisci." 
             style={{ width: '200px', height: '50px', color:'black'}}/></p>
           </div>
           <div>
-            <Container>
-              <Row>
-                <Col>
+            <Container style={{marginLeft:'10%',marginTop:'5%'}}>
+              <Row style={{display:'flex'}}>
+                <Col style={{paddingRight:'6%'}}>
                 <div  class='con'>
               <p class="h2"><InputBox placeholder="Achievement1" style={{color:'black'}}/></p>
               <p class="p"><textarea placeholder="Exercitationem doloribus voluptate animi odit culpa velit eveniet."
-              style={{ width: '300px', height: '100px', color:'black'}}/></p>
+              style={{ width: '300px', height: '100px', color:'black', border:'0'}}/></p>
               </div>
                 </Col>
-                <Col>
+                <Col style={{paddingRight:'6%'}}>
                 <div  class='con'>
               <p class="h2"><InputBox placeholder="Achievement2"/></p>
               <p class="p"><textarea placeholder="Exercitationem doloribus voluptate animi odit culpa velit eveniet."
-              style={{ width: '300px', height: '100px', color:'black'}}/></p>
+              style={{ width: '300px', height: '100px', color:'black', border:'0'}}/></p>
               </div>
                 </Col>
-                <Col>
+                <Col style={{paddingRight:'6%'}}>
                 <div  class='con'>
               <p class="h2"><InputBox placeholder="Achievement3"/></p>
               <p class="p"><textarea placeholder="Exercitationem doloribus voluptate animi odit culpa velit eveniet."
-              style={{ width: '300px', height: '100px', color:'black'}}/></p>
+              style={{ width: '300px', height: '100px', color:'black', border:'0'}}/></p>
               </div>
                 </Col>
               </Row>
@@ -130,20 +130,24 @@ export const Temp03 = () => {
         </div>
 
         <div class="Skills3" id="Skills3">
-          <h1 class="about-h3"><InputBox placeholder="Photography"/></h1>
-            <Container style={{marginLeft:'3%'}}>
+          <h1 class="about-h3"><InputBox placeholder="Photography" style={{marginBottom:'5%'}}/></h1>
+            <Container style={{marginLeft:'9%'}}>
                 
-                <Row>
+                <Row style={{display:'flex'}}>
                 <Col>
                 <div class="photo" onClick={handleImageClick}>
                 <img src="https://i.pinimg.com/564x/d5/a8/05/d5a805871f757157192ab1020081fd05.jpg"/>
                 <input type="file" ref={inputRef} style={{display:'none', width:'60%'}}/>
+                <InputBox  placeholder="Descrption" style={{color:'#B14096'}}/>
+
                 </div>
                 </Col>
                 <Col>
                 <div class="photo" onClick={handleImageClick}>
                 <img src="https://i.pinimg.com/564x/df/f9/ea/dff9ea6629f316065900e2a3c5055a6c.jpg"/>
                 <input type="file" ref={inputRef} style={{display:'none', width:'60%'}}/>
+                <InputBox  placeholder="Descrption" style={{color:'#B14096'}}/>
+
                 </div>
                 </Col>
 
@@ -151,28 +155,18 @@ export const Temp03 = () => {
                 <div class="photo" onClick={handleImageClick}>
                 <img src="https://i.pinimg.com/474x/31/61/b7/3161b7b57d0b15c9d74280fe1c99693a.jpg"/>
                 <input type="file" ref={inputRef} style={{display:'none', width:'60%'}}/>
+                <InputBox  placeholder="Descrption" style={{color:'#B14096'}}/>
                 </div>
                 </Col>
-                {/* <Col>
-                <div class="photo" onClick={handleImageClick}>
-                <img src="https://i.pinimg.com/564x/95/06/dd/9506ddd052a4ab470ad4c099500b8bc8.jpg"/>
-                <input type="file" ref={inputRef} style={{display:'none', width:'40%'}}/>
-                </div>
-                </Col> */}
-                </Row>
-                <Row>
-                <Col><InputBox  placeholder="Descrption" style={{color:'#B14096'}}/></Col>
-                <Col><InputBox  placeholder="Descrption"  style={{color:'#B14096'}}/></Col>
-                <Col><InputBox  placeholder="Descrption" style={{color:'#B14096'}}/></Col>
                 </Row>
                 </Container>
         </div>
 
         <div class="Education3" id="Education3">
-          <h1 class="about-h3"><InputBox placeholder="Education"/></h1>
+          <h1 class="about-h3"><InputBox placeholder="Education" style={{marginTop:'5%'}}/></h1>
           <div class="educ3">
           <Container>
-            <Row>
+            <Row style={{display:'flex'}}> 
               <Col>
               <div>
               <p class="h2"><InputBox placeholder="MCA"/></p>
@@ -193,7 +187,7 @@ export const Temp03 = () => {
             </Row>
           </Container>
           <Container>
-            <Row>
+            <Row style={{display:'flex'}}>
               <Col>
               <div>
               <h2 class="h2"><InputBox placeholder="PUC"/></h2>
