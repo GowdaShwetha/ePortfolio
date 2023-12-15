@@ -18,6 +18,8 @@ export const Footer = () => {
           <div class="row1">
             <div class="col1">
             <img src={Logo1} class="logo"/>
+            </div>
+            <div class="col1">
             <p>Crafting Your Narrative, Building Your Future: Your Portfolio, Your Story.</p>
             </div>
             <div class="col1">
