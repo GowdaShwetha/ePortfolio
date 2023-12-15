@@ -33,8 +33,8 @@ footer
 }
 .col1
 {
-  flex-basis:25%;
-  padding:0 30px;
+  flex-basis:20%;
+  padding:0 10px;
 }
 .logo
 {
@@ -62,4 +62,8 @@ ul li a{
 }
 .col h5{
   display: flex;
+}
+.col1 a{
+  text-decoration: none;
+  color:white;
 }

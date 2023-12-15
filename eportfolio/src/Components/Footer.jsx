@@ -16,18 +16,15 @@ export const Footer = () => {
     <div class="foot">
        <footer>
           <div class="row1">
-            <div class="col1">
+            <div class="col1" style={{paddingLeft:'14%'}}>
             <img src={Logo1} class="logo"/>
-            </div>
-            <div class="col1">
+
             <p>Crafting Your Narrative, Building Your Future: Your Portfolio, Your Story.</p>
             </div>
             <div class="col1">
-              <p>Hosakote, Bangalore</p>
+              <p>Bangalore</p>
               <p>Karnataka, PIN 562114, India</p>
               <p class="email-id">shwethagowda252001@gmail.com</p>
-              <h4>91-6361880247</h4>
-
             </div>
             <div class="col1">
               <ul>
@@ -39,10 +36,10 @@ export const Footer = () => {
               </ul>
             </div>
             <div class="col1">
-              <Icon.Linkedin/><p>LinkedIn</p>
-              <Icon.Github/><p>Github</p>
-              <Icon.Facebook/><p>Facebook</p>
-              <Icon.Instagram/><p>Instagram</p>
+              <Icon.Linkedin/>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/shwetha-gowda-9b59412a4/"  target="_blank">LinkedIn</a><br/>
+              <Icon.Github/>&nbsp;&nbsp;<a href="https://github.com/GowdaShwetha"  target="_blank">Github</a><br/>
+              <Icon.Facebook/>&nbsp;&nbsp;<a href=""  target="_blank">Facebook</a><br/>
+              <Icon.Instagram/>&nbsp;&nbsp;<a href=""  target="_blank">Instagram</a><br/>
             </div>
             <div class="col1"></div>
           </div> 
