@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+:root
+{
+  --blue:#235784;
+  --light:#40ABC4;
+}
+#temp 
+{
+    margin:0 8%;
+}
+#temp h1{
+    text-align: center;
+    font-size:3.5rem;
+    font-weight: bold;
+    background: linear-gradient(var(--blue),var(--light));
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    padding:5%;
+}
+
+.col img{
+    height:500px;
+    width:400px;
+}

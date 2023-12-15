@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+:root{
+    --combo:linear-gradient(120deg,var(--yel),var(--pink));
+    --yellow:#FFC000;
+    --yel:#FDD023;
+    --pink:#FF007F;
+    --blue:#235784;
+    --light:#40ABC4;
+  
+}
+.logo1 input::placeholder , .logo1 input{
+    color:var(--yellow);
+    /* margin:3%; */
+    font-size: 1.2rem;
+    font-weight:bold;
+    text-wrap:wrap ;
+    margin-left: 2%;
+}
+.nav_bar1{
+    display:flex;
+    /* margin-top:%;  */
+    position: fixed;
+    margin: 3%;
+
+}
+.nav_bar1 ul
+{
+  list-style-type: none;
+  margin-left: 750px;
+  display: flex;
+  position: absolute;
+}
+.nav_bar1 ul a{
+    color:var(--yellow);
+    margin-right: 5%;
+    font-size: 1.2rem;
+    font-weight:bold;
+    text-wrap:wrap ;
+}
+.nav_bar1 ul a{
+    margin: 6%;
+    text-decoration: none; 
+}
+.Home1 
+{
+    padding-top: 8%;
+    margin:0;
+    display: flex;
+}
+.Home1 .info{
+    margin: 8%;
+    padding-right: 6%;
+}
+
+.h6 input::placeholder{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 1%;
+    color:black;
+}
+.h1 input::placeholder{
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 1%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5rem;
+  }
+  .h11 input::placeholder{
+    color:var(--yellow);
+    font-weight: bold;
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.5rem;
+  }
+/* .Home1 .info .span{
+    color: var(--yel);
+  } */
+/* .Home1 .info .dot{
+    background: var(--yel);
+    font-size:3rem;
+    display: inline-block;
+    width:15px;
+    height:15px;
+} */
+.Home1{
+    display: flex;
+    margin-left: 3%;
+}
+.self1 img{
+        /* padding-left:35%; */
+        margin-top: 5%;
+        width:100%;
+        height:80%;
+        color: #FDD023;
+        border-radius: 99% 1% 70% 30% / 58% 100% 0% 42% ;
+
+}
+
+#About1 {
+    margin:5% 3% 3% 3%;
+}
+.about-h1
+{
+   margin-left: 30%;
+}
+.about-h1 input::placeholder
+{
+  text-align: center;
+  letter-spacing: 0.1;
+  font-size: 3rem;
+  font-weight: bold;
+  color:var(--yellow);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.about-me{
+    display: flex;
+  }
+  
+.about-me .photo img{
+    height: 380px;
+    width:95%;
+    margin-left:70px;
+}
+    
+.me{
+  margin-left: 5%;
+    height: 50%;
+    width: 50%;
+  }
+
+.about .about-me input::placeholder{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+  background:linear-gradient(180deg,var(--yel),var(--pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+.me p input::placeholder{
+    display: inline-flexbox;
+    padding: 10% 0 10% 20%;
+    color: black;
+    font-weight:400;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+.me .text textarea::placeholder
+{
+  color:black;
+}
+.progressInput{
+  --webkit-apperance:none;
+  background-image: linear-gradient(to right,var(--pink),var(--yel));
+  border-radius: 5px;
+}
+.progressInput::-webkit-slider-thumb{
+ -webkit-appearance: none;
+ width:30px;
+ height: 30px;
+ border-radius: 50%;
+ /* background-color: #FDD023; */
+ cursor: pointer;
+}
+
+.educ{
+  margin-top: 5%;
+  align-items: center;
+  margin-left: 25%;
+  /* padding-bottom: 3%; */
+}
+
+.educ .h2 input::placeholder
+{
+  color:black;
+}
+.educ .p input::placeholder
+{
+  color:black;
+}
+.educ .vertical-line
+{
+  width:1px;
+  height: 5000px;
+  color: black;
+}
+.con .h2 input::placeholder
+{
+  margin-top: 5%;
+  text-align: center;
+  color:black;
+}
+.con .p{
+  margin-left: 13%;
+}
+.con .p input::placeholder
+{
+  text-align: center;
+  color:black;
+}
+.con{
+  height: 200px;
+  border:1px solid rgba(0,0,0.1);
+  border-radius: 6%;
+}
+.Service1
+{
+  margin-bottom: 5%;
+}
+.footerStyle
+{
+  background-color:var(--yellow);
+    padding: 7px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+.footer1 .p input::placeholder
+{
+  background-color: var(--yellow);
+}
+.footer-bottom{
+  background:#3c4047;
+  width: 100%;
+  /* height: 100px; */
+  padding:10px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+.footer-bottom p input::placeholder
+{
+  color:aliceblue;
+}
+.footer-bottom span input::placeholder
+{
+  color:aliceblue;
+}
+.Tempbtn{
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-size: 1rem;
+  width:15%;
+  margin-left: 40%;
+  height: 15%;
+  background:linear-gradient(90deg,var(--yel),var(--yellow));
+  color:black;
+  border: 0;
+  border-radius: 10%;
+  border-color: var(--yel);
+  cursor: pointer;
+}

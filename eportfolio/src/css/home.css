@@ -1,0 +1,334 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+:root{
+  --blue:#235784;
+  --light:#40ABC4;
+}
+#home{
+  margin:5%;
+}
+.content
+{
+  display: flex;
+}
+.pic img{
+  /* height: 400px; */
+  margin-left:55%;
+  /* border-radius: 99% 1% 70% 30% / 58% 100% 0% 42% ; */
+
+}
+.tex h1{
+  margin-top: 19%;
+  margin-left: 17%;
+  padding-bottom: 1%;
+  letter-spacing: 0.1;
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(var(--blue),var(--light));
+  /* background: linear-gradient(var(--gold),rgb(45, 45, 41)); */
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.tex h2{
+
+  padding-bottom: 1%;
+  letter-spacing: 0.1;
+  margin-left: 17%;
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(var(--blue),var(--light));
+  /* background: linear-gradient(var(--gold),rgb(45, 45, 41)); */
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.tex h3{
+  padding-bottom: 8%;
+  letter-spacing: 0.1;
+  margin-left: 17%;
+  font-size: 3rem;
+  font-weight: bold;
+  /* color:var(--gold); */
+  color:var(--blue);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.tex button
+{
+  align-items: center;
+  padding: 10%; 
+}
+.tex .googlebtn{
+  font-size: 1.4rem;
+  margin-left: 10%;
+  width:20%;
+  height: 10%;
+  padding: 1%;
+  background:rgb(0, 170, 255);
+  color: black;
+  border: 0;
+  border-radius: 10%;
+  position: absolute;
+  
+}
+.tex .emailbtn{
+    font-size: 1.5rem;
+    margin-left: 35%;
+    width:15%;
+    height: 10%;
+    padding: 1%;
+    background:rgb(255, 162, 0);
+    color: black;
+    border: 0;
+    border-radius: 10%;
+    position: absolute;
+
+  }
+
+
+
+
+
+
+/* *
+{
+    margin:0;
+    padding:0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+:root
+{
+ --yel:#FFB605;
+ --grey:#3B3B3B;
+ --black:#1C1C1C;
+ --brown:#B28228;
+ --light:#FFE002;
+  --combo:linear-gradient(45deg,var(--grey),var(--yel));
+}
+
+
+#home
+{
+  padding-top: 8%;
+  margin:0 8%;
+  padding-bottom: 30%;
+}
+
+#home .info{
+  margin:5%;
+}
+#home  p{
+  text-align: center;
+  color:#FFB605;
+  font-size: 1.5rem;
+  margin-top:-30px;
+}
+#home .info h6,h1
+{
+ color:white;
+}
+#home .info h6{
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 1%;
+}
+#home .info h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0.5rem;
+  position: absolute;
+  color: #1C1C1C;
+  top: 45%;
+  width: 80%;
+
+}
+#home .info .span{
+  color: white;
+}
+#home .info .dot{
+  background: white;
+  font-size:3rem;
+  display: inline-block;
+  width:15px;
+  height:15px;
+}
+#info button
+{
+  align-items: center;
+  margin-left: 35%;
+  padding: 10%;
+  
+}
+.info .googlebtn{
+  font-size: 1.5rem;
+  width:15%;
+  height: 10%;
+  padding: 1%;
+  margin:16% 0% 5% 15%;
+  background:rgb(0, 170, 255);
+  color: black;
+  border: 0;
+  border-radius: 10%;
+  position: absolute;
+  
+}
+.info .emailbtn{
+    margin:16% 0% 5% 40%;
+    font-size: 1.5rem;
+    width:15%;
+    height: 10%;
+    padding: 1%;
+
+    background:rgb(255, 162, 0);
+    color: black;
+    border: 0;
+    border-radius: 10%;
+    position: absolute;
+
+  }
+  
+#home button a{
+  color:white;
+ font-size: 1rem;
+ text-decoration: none;
+}
+
+
+
+#burst-12 {
+  background:#EA1887;
+  top: -80px;
+  left:80%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  text-align: center;
+}
+#burst-12:before,
+#burst-12:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  background:#EA1887;
+}
+#burst-12:before {
+  transform: rotate(30deg);
+}
+#burst-12:after {
+  transform: rotate(60deg);
+}
+.icon
+{
+  margin:5%  9% 0% 9%;
+}
+#circle
+{
+  position: absolute;
+  margin-top:-7%;
+}
+#right{
+  position: absolute;
+  margin-top: 6%;
+  left:77%; 
+}
+#list
+{
+  position: absolute;
+  margin-left:2%;
+  margin-top: 2%;
+}
+#circles
+{
+  position: absolute;
+  margin-left:17%;
+  margin-top: -3%;
+}
+#brush
+{
+  position: absolute;
+  margin-top:18%;
+  left:70%;
+}
+#square
+{
+  position: absolute;
+  margin-top:18%;
+  left:50%;
+}
+#cursor
+{ 
+  position: absolute;
+  margin-top:17%;
+  left:26%;
+}
+#ocatagon
+{
+  position: absolute;
+  margin-top:10%;
+}
+#triangle
+{
+  position: absolute;
+  margin-top:16%;
+  left:55%;
+}
+#gem
+{
+  position: absolute;
+  margin-top:10%;
+  left:50%;
+}
+#hexagon
+{
+  position: absolute;
+  margin-top:10%;
+  left:21%;
+}
+#diamond
+{
+  position: absolute;
+  margin-top:21%;
+}
+#record
+{
+  position: absolute;
+  margin-top:19%;
+  left:13%;
+}
+#xdia
+{
+  position: absolute;
+  left:85%;
+}
+#stars
+{
+  position: absolute;
+  margin-top: 16%;
+  left:55%;
+} 
+.h3-A1{
+  font-weight: bold;
+  margin-left: 400px;
+  margin-top: -30px;
+}
+.h3-A2{
+  font-weight: bold;
+  margin-left: 330px;
+  margin-top: 0px;
+}
+.h3-A3{
+  margin-left: 400px;
+  font-weight: bold;
+
+} */

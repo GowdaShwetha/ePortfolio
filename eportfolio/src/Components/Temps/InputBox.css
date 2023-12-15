@@ -1,0 +1,10 @@
+.inputBox {
+    background-color: white; /* Default background color */
+    border: 1px solid white; /* Add border styles as needed */
+    padding: 5px; /* Adjust padding as needed */
+  }
+  
+  .inputBox.clicked {
+    background-color: lightblue; /* Background color on click */
+    /* You can customize the clicked state styles here */
+  }

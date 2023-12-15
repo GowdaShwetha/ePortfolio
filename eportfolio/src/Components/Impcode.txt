@@ -1,0 +1,407 @@
+ {/* <img src="https://i.pinimg.com/564x/1d/3e/b9/1d3eb9f70bb9768090fc31e15a261fd4.jpg"/> */}
+        {/* <img src="https://i.pinimg.com/236x/ea/13/7e/ea137e436e087c0bee9810dd8d0f4c94.jpg"/> */}
+
+
+<section id="home">
+      <div class="icon">
+      <Icon.CircleFill color="#60930D" size="40" id="circle"/>
+      <Icon.CaretRightFill color="purple" size="150" id="right"/>
+      <Icon.ListNested color="Indigo" size="80" id="list"/>
+      <Icon.Icon0Circle color="#ff91a4 " size="70" id="circles"/>
+      <Icon.BrushFill color="LawnGreen" size="60"  id="brush"/>
+      <Icon.Square color="Teal" size="50" id="square"/>
+      <Icon.Cursor color="Violet" size="70" id="cursor"/>
+      <Icon.RecordBtnFill color="red" size="70" id="record"/>
+      <Icon.Stars color="gold" size="70" id="stars"/>
+      <div id="burst-12"></div>
+      </div>
+      <p>"Crafting Your Narrative, Building Your Future: Your Portfolio, Your Story."</p>
+        <div class="info">
+           
+            <h1>Build Custom Portfilo For your Career,Empower Success<span class="dot" color="pink"></span></h1>
+            
+           <button class="googlebtn"><a href="#"><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="url(#grad1)" class="bi bi-google" viewBox="0 0 16 16">
+           <defs>
+           <linearGradient id="grad1" x1="0%" y1="0%" x2="130%" y2="0%">
+           <stop offset="0%" style={{ stopColor: '#EA4335', stopOpacity: 1 }} />
+           <stop offset="45%" style={{ stopColor: '#FBBC05', stopOpacity: 1 }} />
+           <stop offset="45%" style={{ stopColor: '#34A853', stopOpacity: 1 }} />
+           </linearGradient>
+           </defs>
+           <ellipse cx="200" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+            <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+            </svg>&nbsp;&nbsp;&nbsp;</span>Continue with Google</a></button>           
+            <button class="emailbtn"><a href="#">SignUp with email</a></button>
+        </div>
+         
+    </section> 
+
+    
+#home
+{
+  padding-top: 8%;
+  margin:0 8%;
+  padding-bottom: 30%;
+}
+/* #home #space img{
+  margin:0;
+  border-radius: 3% 97% 100% 0% / 0% 58% 42% 100% ;
+  
+  height: 50%;
+  width: 1000px;
+  background-color: black;
+} */
+#home .info{
+  margin:5%;
+}
+#home  p{
+  text-align: center;
+  color:#FFB605;
+  font-size: 1.5rem;
+  margin-top:1.5%;
+}
+#home .info h6,h1
+{
+ color:white;
+}
+#home .info h6{
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 1%;
+}
+#home .info h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  /* background: linear-gradient(black,var(--yel)); */
+  /* -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; */
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0.5rem;
+  position: absolute;
+  color: #1C1C1C;
+  top: 45%;
+  width: 80%;
+
+}
+#home .info .span{
+  color: white;
+}
+#home .info .dot{
+  background: white;
+  font-size:3rem;
+  display: inline-block;
+  width:15px;
+  height:15px;
+}
+#info button
+{
+  align-items: center;
+  margin-left: 35%;
+  padding: 10%;
+  
+}
+.info .googlebtn{
+  font-size: 1.5rem;
+  width:15%;
+  height: 10%;
+  padding: 1%;
+  margin:16% 0% 5% 15%;
+  background:rgb(0, 170, 255);
+  color: black;
+  border: 0;
+  border-radius: 10%;
+  position: absolute;
+  
+}
+.info .emailbtn{
+    margin:16% 0% 5% 40%;
+    font-size: 1.5rem;
+    width:15%;
+    height: 10%;
+    padding: 1%;
+    /* margin-top: 8%; */
+    background:rgb(255, 162, 0);
+    color: black;
+    border: 0;
+    border-radius: 10%;
+    position: absolute;
+
+  }
+  
+#home button a{
+  color:white;
+ font-size: 1rem;
+ text-decoration: none;
+}
+
+/* Desgin */
+
+#burst-12 {
+  background:#EA1887;
+  left:80%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  text-align: center;
+}
+#burst-12:before,
+#burst-12:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  background:#EA1887;
+}
+#burst-12:before {
+  transform: rotate(30deg);
+}
+#burst-12:after {
+  transform: rotate(60deg);
+}
+.icon
+{
+  margin:5%  9% 0% 9%;
+}
+#circle
+{
+  position: absolute;
+  margin-top:-7%;
+}
+#right{
+  position: absolute;
+  margin-top: 6%;
+  left:77%; 
+}
+#list
+{
+  position: absolute;
+  margin-left:2%;
+  margin-top: 2%;
+}
+#circles
+{
+  position: absolute;
+  margin-left:17%;
+  margin-top: -3%;
+}
+#brush
+{
+  position: absolute;
+  margin-top:18%;
+  left:70%;
+}
+#square
+{
+  position: absolute;
+  margin-top:18%;
+  left:50%;
+}
+#cursor
+{ 
+  position: absolute;
+  margin-top:17%;
+  left:26%;
+}
+#ocatagon
+{
+  position: absolute;
+  margin-top:10%;
+}
+#triangle
+{
+  position: absolute;
+  margin-top:16%;
+  left:55%;
+}
+#gem
+{
+  position: absolute;
+  margin-top:10%;
+  left:50%;
+}
+#hexagon
+{
+  position: absolute;
+  margin-top:10%;
+  left:21%;
+}
+#diamond
+{
+  position: absolute;
+  margin-top:21%;
+}
+#record
+{
+  position: absolute;
+  margin-top:19%;
+  left:13%;
+}
+#xdia
+{
+  position: absolute;
+  left:85%;
+}
+#stars
+{
+  position: absolute;
+  margin-top: 16%;
+  left:55%;
+} 
+
+
+creationg icon in react
+
+import * as Icon from 'react-bootstrap-icons';
+
+
+<section id="home">
+        <div class="info">
+            <h1>Build Custom </h1><br/>
+            <h1>Portfilo For your </h1><br/>
+            <h1><span class="span">Career,</span></h1><br/>
+            <h1>Empower Success <span class="dot"></span></h1>
+            <button>Project</button>
+        </div>
+        <div id="self">
+            <img src={home1} alt=""/>
+        </div>
+    </section>
+
+
+    
+#home
+{
+  padding-top: 8%;
+  margin:0;
+  display: flex;
+  width: 100%;
+}
+ #space img{
+  margin:0;
+  border-radius: 3% 97% 100% 0% / 0% 58% 42% 100% ;
+  margin-left: 80%;
+  height: 100%;
+  width: 100%;
+  /* background-color: black; */
+}
+#home .info{
+  margin: 8%;
+}
+#home .info h6,h1
+{
+ color:black;
+}
+/* #home .info h6{
+  font-weight: bold;
+  font-size: 2rem;
+  padding-bottom: 1%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+} */
+#home .info h1, .info h6{
+  font-weight: bold;
+  font-size: 3rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0.5rem;
+}
+#home .info .span{
+  color: var(--yel);
+}
+#home .info .dot{
+  background: var(--yel);
+  font-size:3rem;
+  display: inline-block;
+  width:15px;
+  height:15px;
+}
+#home button{
+  margin-top: 3%;
+  font-size: 1rem;
+  width:35%;
+  height: 15%;
+  padding: 1%;
+  margin-top: 8%;
+  background:var(--yel);
+  color: white;
+  border: 0;
+  border-radius: 10%;
+  border-color: var(--yel);
+}
+#home button:hover{
+
+background: var(--combo);  /* transform: scaleX(-0.3); */
+ 
+}
+#home button a{
+  color:white;
+ font-size: 1rem;
+ text-decoration: none;
+}
+/* #home #self img{
+  padding-left:50%;
+  width:100%;
+  height:100%;
+ border-radius: 30% 70% 11% 89% / 51% 30% 70% 49% ; 
+} */
+
+
+
+
+
+// import React, { useState } from 'react'
+
+// function wordCounter()
+// {
+//   const [state,setState]=React.useState({
+//     wordCount:0,
+//     charCount:0
+//   }); 
+//   const handleKeyPress=(e) =>
+//   {
+//     const count= e.target.value;
+
+//     const countWords =(count) =>
+//     {
+//       if(count.length==0)
+//       {
+//         return 0;
+//       }
+//       else
+//       {
+//         count=count.replace(/(^\s*)(\s*$)/gi,"");
+//         count=count.replace(/[ ]{2,}/gi," ");
+//         count=count.replace(/\n /,"\n");
+//         return count.split(' ').length;
+//       }
+//     }
+//   }
+//   setState({
+//     wordCount:countWords(count),
+//     charCount:count.length
+//   });
+//   {
+
+//   }
+// }
+
+
+// const Login = () => {
+//   return (
+//     <>
+//     <form>
+//     <input type="text" placeholder='Enter Your name'/><br/>
+//     <input type="text" placeholder='Enter yor email'/><br/>
+//     <textarea name="" id="" cols="30" rows="10" onChange={handleKeyPress}>Review</textarea>
+//     <span class="num">{state.wordCount}</span>
+//     <button onClick={handleRest}>Submit</button>
+//     </form>
+//     </>
+//   )
+// }
+
+// export default Login
+
+
